@@ -1,0 +1,42 @@
+.proveedores-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.proveedores-container h2 {
+  color: #00438b; 
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 3; 
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+.proveedores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.proveedores-table th, .proveedores-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.proveedores-table th {
+  background-color: #00438b;
+  color: white;
+}
+
+.proveedores-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.proveedores-table tr:hover {
+  background-color: #ddd;
+}
